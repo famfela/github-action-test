@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/aws" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/awscli-aliases" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/pre-commit-terraform" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/salt" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/salt-vim" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/terraform-up-and-running-code" vcs="Git" />
+  </component>
+</project>
