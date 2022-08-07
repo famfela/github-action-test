@@ -1,6 +1,9 @@
 name: Actions Workflow
 
-on: [push, pull_request]
+on: 
+  push:
+  pull_request:
+    types: [closed, assigned, opened, reopened]
 
 jobs:
   run-github-actions:
@@ -9,7 +12,7 @@ jobs:
       - name: List Files
         run: |
           pwd
-          ls -a
+          ls -al
           echo $GITHUB_SHA
           echo $GITHUB_REPOSITORY
           echo $GITHUB_WORKSPACE
@@ -19,7 +22,7 @@ jobs:
       - name: List Files After Checkout
         run: |
           pwd
-          ls -a
+          ls -al
       - name: simple JS Action
         uses: actions/hello-world-javascript-action@v1.1
         with:
